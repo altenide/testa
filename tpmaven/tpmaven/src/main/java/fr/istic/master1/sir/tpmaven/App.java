@@ -16,6 +16,11 @@ public final class App {
 	 * lock the constructor.
 	 */
 	private App() {
+		
+		if (true) {
+			
+			System.out.println("is true !");
+		}
 
 	}
 }

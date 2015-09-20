@@ -46,7 +46,23 @@
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>cobertura-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
-	</reporting>
 
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>2.5</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-changelog-plugin</artifactId>
+			</plugin>
+
+	</plugins>
+	</reporting>
+ <scm>
+
+ <connection>scm:svn:http://svn.riouxsvn.com/taa2/trunk</connection>
+ <url>http://svn.riouxsvn.com/taa2</url>
+ </scm>
 </project>
