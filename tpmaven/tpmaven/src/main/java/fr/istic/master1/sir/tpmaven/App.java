@@ -9,6 +9,7 @@ public final class App {
 	 * @param args the args.
 	 */
 	public static void main(final String[] args) {
+
 		System.out.println("Hello World!");
 	}
 

@@ -53,10 +53,10 @@
 				<version>2.5</version>
 			</plugin>
 
-			<plugin>
+		<!--	<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-changelog-plugin</artifactId>
-			</plugin>
+			</plugin> -->
 
 		</plugins>
 	</reporting>
