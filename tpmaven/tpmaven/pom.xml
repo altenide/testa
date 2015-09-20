@@ -58,11 +58,8 @@
 				<artifactId>maven-changelog-plugin</artifactId>
 			</plugin>
 
-	</plugins>
+		</plugins>
 	</reporting>
- <scm>
-
- <connection>scm:svn:http://svn.riouxsvn.com/taa2/trunk</connection>
- <url>http://svn.riouxsvn.com/taa2</url>
- </scm>
+	<!-- configuration problem <scm> <connection>scm:svn:http://svn.riouxsvn.com/taa2/trunk</connection> 
+		<url>http://svn.riouxsvn.com/taa2</url> </scm> -->
 </project>
